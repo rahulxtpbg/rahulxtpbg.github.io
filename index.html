@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=DM Sans"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Design Futures Studio.</title>
+    <style>
+        .row li{
+            width: calc(100%/2);
+            float: left;
+            list-style-type: none;
+        }
+        #we{
+            position: relative;
+            left: 150px;
+            top: 184px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+        }
+        img{
+            border: none;
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+        }
+        #chrome{
+            position: relative;
+            left: 615px;
+            top: 110px;
+        }
+        #wrapper li{
+            list-style-type: none;
+        }
+        #well li{
+            width: calc(100%/4);
+            float: left;
+            list-style-type: none;
+        }
+        .btn-outline-primary{
+            border: 1px solid #000000;
+            border-radius: 46px;
+            color:#000000;
+        }
+        .btn-outline-primary:hover{
+            border:#000000;
+            color: white;
+            background-color: #000000;
+        }
+        #welll li{
+            width: calc(100%/3);
+            float: left;
+            list-style-type: none;
+        }
+        #upcoming{
+            position: relative;
+            left: 150px;
+            top: 520px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+        }
+        #sandesh{
+            position: relative;
+            left: 150px;
+            top: 600px;
+        }
+        #sandeshh{
+            position: relative;
+            left: 180px;
+            top: 600px;
+        }
+        #sandeshhh{
+            position: relative;
+            left: 210px;
+            top: 600px;
+        }
+        #lorem{
+            position: relative;
+            left: 154px;
+            top: 624px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #loremm{
+            position: relative;
+            left: 185px;
+            top: 624px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #loremmm{
+            position: relative;
+            left: 215px;
+            top: 624px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #ipsum{
+            position: relative;
+            left: 154px;
+            top: 635px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        #ipsumm{
+            position: relative;
+            left: 185px;
+            top: 635px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        #ipsummm{
+            position: relative;
+            left: 215px;
+            top: 635px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        #update{
+            position: relative;
+            left: 150px;
+            top: 870px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+        }
+        #sandeshhhh{
+            position: relative;
+            left: 150px;
+            top: 950px;
+        }
+        #sandeshhhhh{
+            position: relative;
+            left: 180px;
+            top: 950px;
+        }
+        #sandeshhhhhh{
+            position: relative;
+            left: 210px;
+            top: 950px;
+        }
+        #loremmmm{
+            position: relative;
+            left: 154px;
+            top: 974px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #loremmmmm{
+            position: relative;
+            left: 185px;
+            top: 974px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #loremmmmmm{
+            position: relative;
+            left: 215px;
+            top: 974px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #ipsummmm{
+            position: relative;
+            left: 154px;
+            top: 985px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        #ipsummmmm{
+            position: relative;
+            left: 185px;
+            top: 985px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        #ipsummmmmm{
+            position: relative;
+            left: 215px;
+            top: 985px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        #sandeshhhhhhh{
+            position: relative;
+            left: 150px;
+            top: 1124px;
+        }
+        #sandeshhhhhhhh{
+            position: relative;
+            left: 180px;
+            top: 1124px;
+        }
+        #sandeshhhhhhhhh{
+            position: relative;
+            left: 210px;
+            top: 1124px;
+        }
+        #loremmmmmmm{
+            position: relative;
+            left: 154px;
+            top: 1148px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #loremmmmmmmm{
+            position: relative;
+            left: 185px;
+            top: 1148px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #loremmmmmmmmm{
+            position: relative;
+            left: 215px;
+            top: 1148px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        #ipsummmmmmm{
+            position: relative;
+            left: 154px;
+            top: 1159px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        #ipsummmmmmmm{
+            position: relative;
+            left: 185px;
+            top: 1159px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        #ipsummmmmmmmm{
+            position: relative;
+            left: 215px;
+            top: 1159px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+        }
+        footer{
+            position: relative;
+            top: 1471px;
+            height: 227px;
+        }
+        #link{
+            position: relative;
+            left: 151px;
+            top: 40px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+        }
+        #linkk{
+            position: relative;
+            left: 151px;
+            top: 55px;
+
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" style="background: white;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="DFS.png" alt="" width="44" height="20">
+            </a>
+            <div class="d-flex justify-content-end">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="Who We Are (Responsive).html">Who We Are</a>
+                        <a class="nav-link" href="Design & Research (Responsive).html">Design & Research</a>
+                        <a class="nav-link" href="Contact Us (Responsive).html">Contact Us</a>
+                        <a class="nav-link" href="#" id="access">
+                            <img src="Accessibility.png" width="17px" height="32px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-3 col-lg-6">
+            <ul>
+                <li>
+                    <h3 id="we">We are a team of designers.</h3>
+                </li>
+                <li>
+                    <img class="img-fluid" src="Chrome.png" id="chrome">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="well">
+        <div class="col-md-3 col-lg-6">
+            <ul>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 150px; top: 250px; height: 61px;">Voice User Interfaces</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 175px; top: 250px; height: 61px;">Assistive Technology</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 200px; top: 250px; height: 61px;">Conversational AI</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 225px; top: 250px; height: 61px;">Design for Elderly</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-3 col-lg-6">
+            <ul>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 221px; top: 280px; height: 61px;">Assisted-Ambient Living</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 246px; top: 280px; height: 61px;">Cyber Physical System</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 271px; top: 280px; height: 61px;">Suggest Something<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                      </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-3 col-lg-12">
+            <ul>
+                <li>
+                    <h3 id="upcoming">Upcoming</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandesh">
+                </li>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandeshh">
+                </li>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandeshhh">
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <h5 id="lorem">Lorem ipsum dolor sit amet a</h5>
+                </li>
+                <li>
+                    <h5 id="loremm">Lorem ipsum dolor sit amet a</h5>
+                </li>
+                <li>
+                    <h5 id="loremmm">Lorem ipsum dolor sit amet a</h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <p id="ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+                <li>
+                    <p id="ipsumm">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+                <li>
+                    <p id="ipsummm">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 150px; top: 659px; height: 53px;">Know More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 185px; top: 659px; height: 53px;">Add to Calendar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                      </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-3 col-lg-12">
+            <ul>
+                <li>
+                    <h3 id="update">Updates</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandeshhhh">
+                </li>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandeshhhhh">
+                </li>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandeshhhhhh">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <h5 id="loremmmm">Lorem ipsum dolor sit amet a</h5>
+                </li>
+                <li>
+                    <h5 id="loremmmmm">Lorem ipsum dolor sit amet a</h5>
+                </li>
+                <li>
+                    <h5 id="loremmmmmm">Lorem ipsum dolor sit amet a</h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <p id="ipsummmm">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+                <li>
+                    <p id="ipsummmmm">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+                <li>
+                    <p id="ipsummmmmm">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 150px; top: 1009px; height: 53px;">Read News</button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-primary" style="position: relative; left: 185px; top: 1009px; height: 53px;">Add to Calendar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                      </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandeshhhhhhh">
+                </li>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandeshhhhhhhh">
+                </li>
+                <li>
+                    <img class="img-fluid" src="Sandesh.png" id="sandeshhhhhhhhh">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <h5 id="loremmmmmmm">Lorem ipsum dolor sit amet a</h5>
+                </li>
+                <li>
+                    <h5 id="loremmmmmmmm">Lorem ipsum dolor sit amet a</h5>
+                </li>
+                <li>
+                    <h5 id="loremmmmmmmmm">CHI Design Challenge</h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="welll">
+        <div class="col-md-8 col-lg-9">
+            <ul>
+                <li>
+                    <p id="ipsummmmmmm">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+                <li>
+                    <p id="ipsummmmmmmm">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </li>
+                <li>
+                    <p id="ipsummmmmmmmm">Congratulations! Vikram Aditya, Suprabho Dhenki, Amarvaj Likhith, Ajinkya Karale and Harmeet Singh for winning 1st prize in CHI 2016 Student Design Challenge.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-light">
+        <div class="row" id="well">
+            <div class="col-md-8 col-lg-10">
+                <ul>
+                    <li>
+                        <p id="link">Department of Design, IITG<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                          </svg>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="well">
+            <div class="col-md-8 col-lg-10">
+                <ul>
+                    <li>
+                        <p id="linkk">Indian Institute of Technology, Guwahati<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                          </svg>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
