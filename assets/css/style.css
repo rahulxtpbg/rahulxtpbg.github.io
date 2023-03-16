@@ -1,1 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
 
+:root{
+    --custom-grey1:#666666;
+}
+
+.full {
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.headingFont {
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.btn-custom {
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 70px;
+}
+
+.card {
+    border: 0px;
+}
+
+.normalFont {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--custom-grey1);
+
+}
